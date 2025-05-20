@@ -1,0 +1,19 @@
+# Core libraries
+numpy==1.24.3
+pandas==1.5.3
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Machine Learning
+scikit-learn==1.2.2
+
+# Jupyter Notebook (if you're using .ipynb files)
+notebook==6.5.4
+
+# Optional - for imbalanced data techniques
+imbalanced-learn==0.10.1
+
+# Optional - for model saving and deployment
+joblib==1.2.0
