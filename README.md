@@ -50,7 +50,7 @@ Customer acquisition in telecom is **5–10×** more expensive than retention. B
    - Compared `LogisticRegression`, `DecisionTreeClassifier`, **`RandomForestClassifier`**, `XGBClassifier`  
    - **Best performer:** Random Forest (Test ROC-AUC: 0.89)  
 5. **05 – Model Training**  
-   - `GridSearchCV` over `n_estimators=[100,200]`, `max_depth=[10,20,None]`  
+   - `RandomizedSearchCV` over `n_estimators=[100,200]`, `max_depth=[10,20,None]`  
    - Final: `n_estimators=200, max_depth=20`  
 6. **06 – Evaluation**  
    - Accuracy, Precision, Recall, F1, ROC curve  
@@ -67,7 +67,7 @@ import pickle
 clf = pickle.load(open("churn_predictor.pkl", "rb"))
 print(clf)
 # ▶️ e.g. RandomForestClassifier(n_estimators=200, max_depth=20, random_state=42)
-
+```
 ## Project Structure  
 telcom_churn_prediction/
 ├── datasets/
