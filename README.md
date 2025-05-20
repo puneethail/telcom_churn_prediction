@@ -93,7 +93,7 @@ telcom_churn_prediction/
 └── README.md
 ```
 
-##License
+## License
 MIT License
 
 Copyright (c) 2025 Puneethail
