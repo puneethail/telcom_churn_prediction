@@ -1,6 +1,6 @@
 # Telecom Customer Churn Prediction
 
-**Predict which telecom customers are likely to churn** by walking through a full ML pipeline—from raw data to a saved production-ready model.
+**Predict which telecom customers are likely to churn** walking through a full ML Project.
 
 ---
 
@@ -38,7 +38,7 @@ Customer acquisition in telecom is **5–10×** more expensive than retention. B
 
 ---
 
-## Pipeline Overview
+## Project Overview
 
 1. **01 – Loading & EDA**  
    - Read raw CSV, inspect distributions, churn rates by feature  
