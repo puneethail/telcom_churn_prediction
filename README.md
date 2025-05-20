@@ -68,7 +68,8 @@ clf = pickle.load(open("churn_predictor.pkl", "rb"))
 print(clf)
 # ▶️ e.g. RandomForestClassifier(n_estimators=200, max_depth=20, random_state=42)
 ```
-## Project Structure  
+## Project Structure
+```markdown
 telcom_churn_prediction/
 ├── datasets/
 │   ├── Telco_Customer_Churn_Dataset.csv
@@ -86,4 +87,4 @@ telcom_churn_prediction/
 ├── churn_predictor.pkl    # Final serialized model
 ├── requirements.txt
 └── README.md
-
+```
