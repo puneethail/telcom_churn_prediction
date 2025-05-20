@@ -1,3 +1,7 @@
+<!-- Top-of-file badge section (optional) -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8%2B-green.svg)](https://www.python.org/)
+
 # Telecom Customer Churn Prediction
 
 **Predict which telecom customers are likely to churn** walking through a full ML Project.
@@ -8,12 +12,12 @@
 
 1. [Motivation](#motivation)  
 2. [Dataset](#dataset)  
-3. [Pipeline Overview](#pipeline-overview)  
+3. [Project Overview](#project-Overview)  
 4. [Model Details](#model-details)  
 5. [Results](#results)  
 6. [Usage](#usage)  
 7. [Project Structure](#project-structure)  
-8. [License](#license)  
+8. [License]()  
 
 ---
 
@@ -88,3 +92,12 @@ telcom_churn_prediction/
 ├── requirements.txt
 └── README.md
 ```
+
+##License
+MIT License
+
+Copyright (c) 2025 Puneethail
+
+Permission is granted to use, copy, modify, and distribute this software for any purpose, with or without fee, provided that the above copyright notice and this license appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
